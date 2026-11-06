@@ -1,0 +1,47 @@
+
+# =========================
+# Java / Spring Boot
+# =========================
+hirelens-backend/target/
+hirelens-backend/.idea/
+*.class
+*.log
+
+# =========================
+# React / Node.js
+# =========================
+hirelens-frontend/node_modules/
+hirelens-frontend/dist/
+
+# =========================
+# Python / ML Service
+# =========================
+ml-service/.venv/
+ml-service/venv/
+ml-service/__pycache__/
+ml-service/.cache/
+ml-service/*.pyc
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDE / Editor
+# =========================
+.idea/
+.vscode/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
